@@ -1,0 +1,39 @@
+/* >>>>>>>>>> FONTS <<<<<<<<< */
+@font-face {
+    font-family:Outfit ;
+    src: url(/fonts/Outfit-Regular.ttf);
+}
+@font-face {
+    font-family: WorkSans;
+    src: url(/fonts/WorkSans-Regular.ttf);
+}
+/* >>>>>>>>>>>> COLOR <<<<<<<< */
+:root{
+    --main-h-color:#34394C;
+    --second-p-color:#707686;
+   --hero-nav-bg-color:#DEECEC;
+   --bg-btn-h4-color:#589195;
+   --hot-bg-color:#F04726;
+   --top-bg-color:#31797E;
+}
+/* >>>>>>>>> BASIC <<<<<<<<<<<< */
+html{
+    font-size: 62.5%;
+}
+* , *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: WorkSans;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.container{
+    max-width: 111rem;
+    margin: 0 auto;
+}

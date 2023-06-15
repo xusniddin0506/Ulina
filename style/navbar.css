@@ -1,0 +1,60 @@
+nav {
+    background-color: var(--hero-nav-bg-color);
+    border-bottom: 0.8px solid #84BABE;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3.5rem 0;
+}
+
+.menu {
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+
+}
+
+.navbar_icon {
+    display: flex;
+    gap: 2.8rem;
+}
+
+.menu>li>a {
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    color: #6A7087;
+}
+
+.menu>li>a:hover {
+    color: #2C5F63;
+}
+
+.menu>li>a:focus {
+    color: #424758;
+}
+
+.nav_icon3 {
+    position: relative;
+}
+
+.num {
+    position: absolute;
+    top: -0.5rem;
+    right: -0.9rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: var(--hot-bg-color);
+    border-radius: 50%;
+}
+
+.num>span {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    padding-left: 0.4rem;
+    color: #FFFFFF;
+}

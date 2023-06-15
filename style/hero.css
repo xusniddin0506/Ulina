@@ -1,0 +1,85 @@
+header {
+    background-color: var(--hero-nav-bg-color);
+}
+
+.hero {
+    display: flex;
+    gap: 8rem;
+    align-items: center;
+    padding: 4.5rem 0 12.7rem 0;
+}
+
+.hero_info {
+    width: 50%;
+}
+
+.hero_info>h4 {
+    font-family: Outfit;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 6rem;
+    color: var(--bg-btn-h4-color);
+}
+
+.hero_info>h1 {
+    font-family: Outfit;
+    font-weight: 500;
+    font-size: 5rem;
+    line-height: 6rem;
+    color: var(--main-h-color);
+}
+
+.hero_info>p {
+    margin: 2.5rem 0;
+}
+
+.public_p {
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    color: var(--second-p-color);
+}
+
+.btn {
+    padding: 0.8rem 3.5rem;
+    background-color: var(--bg-btn-h4-color);
+    color: #FFFFFF;
+    font-family: Outfit;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 6rem;
+    border: none;
+    border-radius: 3.8rem;
+}
+
+.hero_img {
+    width: 50%;
+    position: relative;
+}
+
+.hero_img>img {
+    width: 100%;
+}
+
+.circle_icon {
+    position: absolute;
+    display: flex;
+    gap: 2.2rem;
+    margin-left: 21rem;
+    margin-top: 4rem;
+}
+
+.circle{
+    width: 1rem;
+    height: 1rem;
+    background-color: #9FC1C3;
+    border-radius: 50%;
+}
+
+.circle_icon > .circle:hover{
+    border: 0.8px solid #589195;
+    width: 2.4rem;
+    height: 2.4rem;
+    cursor: pointer;
+    background-color: navy;
+}
