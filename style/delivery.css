@@ -1,0 +1,16 @@
+.delivery {
+    margin-top: 6.9rem;
+    margin-bottom: 6.1rem;
+    background-color: #FFFFFF;
+}
+.delivery_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.delivery_info >h5{
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 6rem;
+    color: #34394C;
+}

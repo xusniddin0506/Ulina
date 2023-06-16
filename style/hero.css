@@ -7,8 +7,13 @@ header {
     gap: 8rem;
     align-items: center;
     padding: 4.5rem 0 12.7rem 0;
+    position: relative;
 }
-
+.bg_hero_img{
+    position: absolute;
+    top: 51rem;
+    left: 30rem;
+}
 .hero_info {
     width: 50%;
 }
@@ -54,7 +59,6 @@ header {
 
 .hero_img {
     width: 50%;
-    position: relative;
 }
 
 .hero_img>img {
@@ -62,24 +66,21 @@ header {
 }
 
 .circle_icon {
-    position: absolute;
+    position: relative;
     display: flex;
+    align-items: center;
     gap: 2.2rem;
     margin-left: 21rem;
     margin-top: 4rem;
 }
-
-.circle{
-    width: 1rem;
-    height: 1rem;
-    background-color: #9FC1C3;
-    border-radius: 50%;
-}
-
-.circle_icon > .circle:hover{
+.circle:hover{
     border: 0.8px solid #589195;
+    border-radius: 50%;
     width: 2.4rem;
     height: 2.4rem;
-    cursor: pointer;
-    background-color: navy;
+}
+.circle > img{
+    position: absolute;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
 }
