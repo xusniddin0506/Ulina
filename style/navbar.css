@@ -1,6 +1,9 @@
 nav {
     background-color: var(--hero-nav-bg-color);
     border-bottom: 0.8px solid #84BABE;
+    position: sticky;
+    top: 0;
+    z-index: 999;
 }
 
 .navbar {
